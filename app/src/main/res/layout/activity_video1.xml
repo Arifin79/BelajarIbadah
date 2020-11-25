@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:background="@drawable/sss"
+    tools:context=".ActivityVideo1">
+
+    <VideoView
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:text="Tata Cara Sholat"
+        android:textColor="#FFFF"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/play1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Play Video" />
+
+    <TextView
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:textColor="#FFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hadis Sholat:"/>
+
+    <TextView
+        android:padding="20sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مَنْ صَلَّى صَلاَتَنَا ، وَاسْتَقْبَلَ قِبْلَتَنَا ، وَأَكَلَ ذَبِيحَتَنَا ، فَهُوَ المُسْلِمُ لَهُ مَا لَنَا وَعَلَيْهِ مَا عَلَيْنَاَ"/>
+
+    <TextView
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFF"
+        android:text="“Barangsiapa mengerjakan shalat kami, menghadap kiblat kami, dan memakan sembelihan kami; maka dia adalah muslim. Dia memiliki hak sebagaimana hak umumnya kaum muslimin. Demikian juga memiliki kewajiban sebagaimana kewajiban kaum muslimin.” (Lihat Syarhul ‘Aqidah Ath Thohawiyyah Al Albani, 351. Beliau mengatakan bahwa hadits ini shohih)"/>
+</LinearLayout>

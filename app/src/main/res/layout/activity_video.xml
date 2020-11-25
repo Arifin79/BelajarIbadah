@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:background="@drawable/sss"
+    tools:context=".ActivityVideo">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:text="Tata Cara Wudhu"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Play Video" />
+
+    <TextView
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:textColor="#FFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hadis Berwudhu:"/>
+
+    <TextView
+        android:padding="20sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:text="قال النبي صلى الله عليه وسلم: {مَنْ تَوَضَّأ لِلصَّلاَةِ فَأحْسَنَ الْوُضُوْءَ، ثُمَّ قَامَ إِلَى الصَّلاَةِ فَإنَّهُ يَخْرُجُ مِنْ خَطِيْئَتِهِ كَيَوْمِ وَلَدَتْهُ أمُّهُ}."/>
+
+    <TextView
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFF"
+        android:text="Nabi saw. bersabda, “Siapa yang berwudhu untuk shalat, lalu ia memperbaiki wudhunya (dengan memperhatikan syarat, fardhu, dan adabnya), kemudian ia melaksanakan shalat, maka ia akan keluar dari kesalahannya seperti hari dimana ia dilahirkan ibunya.” Imam Nawawi Al-Bantani di dalam kitab Tanqihul Qaul Al-Hatsits ketika mensyarahi hadis tersebut kelihatannya belum menemukan hadis tersebut berada di kitab apa dan siapa periwayatnya. Penulis juga belum menemukannya setelah melacaknya. Hanya saja imam Nawawi tetap memberikan syarahnya dengan menerangkan bahwa maksud kesalahan-kesalahan yang diampuni dalam hadis tersebut adalah dosa-dosa yang kecil saja."/>
+
+</LinearLayout>
